@@ -40,12 +40,12 @@ h1 {
     text-decoration: none;
 }
 
-.button a:first-child {
+.yes {
     background-color: lightgreen;
     font-size: 2rem;
 }
 
-.button a:last-child {
+.no {
     background-color: lightcoral;
     font-size: 1rem;
 }
