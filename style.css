@@ -1,0 +1,51 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 16rem;
+    font-size: 5rem;
+}
+
+.text {
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 5rem;
+}
+
+.food {
+    display: block;
+    margin: auto;
+    width: 50rem;
+}
+
+.arrow {
+    display: block;
+    width: 10rem;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button a {
+    color: black;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.button a:first-child {
+    background-color: lightgreen;
+    font-size: 2rem;
+}
+
+.button a:last-child {
+    background-color: lightcoral;
+    font-size: 1rem;
+}
