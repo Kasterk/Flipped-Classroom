@@ -1,25 +1,45 @@
-body {
-    background-color: lightblue;
-    font-family: Arial, sans-serif;
-} 
-
 /* curly bracket */
+body {
+    /* colors can be specified using names, hex values, or RGB values */
+    background-color: lightblue; 
+    font-family: Copperplate, Papyrus, fantasy;
+} 
 
 h1 {
     text-align: center;
+    /* 
+    rem units are a relative way to size elements 1 rem = 16px 
+    em and px are also used for sizing, but rem is more consistent across different screen sizes and user settings
+    1 em = 16px but can be affected by the font size of the parent element, while 1 rem is always based on the root font size
+    */
     margin-top: 16rem;
     font-size: 5rem;
 }
 
-/* Class */
+/* 
+selects elements with the specific class name
+.className selects all elements with the class "className"
+*/
 .text {
+    /* 
+    text-align is used to set the horizontal alignment of the text within an element
+    center aligns the text to the center of its container
+    */
     text-align: center;
     margin-top: 10px;
     font-size: 5rem;
 }
 
-/* Id */
+/* 
+selects the element with the specific id name 
+#idName selects the element with the id "idName"
+*/
 #food {
+    /* 
+    display: block; sets the element to display as a block-level element
+    margin: auto; centers the element horizontally within its container
+    width: 50rem; sets the width of the element to 50 rem units
+    */
     display: block;
     margin: auto;
     width: 50rem;
@@ -31,15 +51,29 @@ h1 {
 }
 
 #button {
+    /* 
+    display: flex; sets the element to display as a flex container, allowing for flexible layout of its child elements
+    flex-direction: column; stacks the child elements vertically
+    align-items: center; centers the child elements horizontally within the container
+    gap: 1rem; adds space between the child elements
+    */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-/* Id individual element a */
+/* 
+
+*/
 #button a {
     color: black;
+    /* 
+    padding is used to create space around the content of an element
+    20px 40px means 20px of padding on the top and bottom, and 40px on the left and right
+    border-radius is used to create rounded corners on an element, 10px means the corners will have a radius of 10 pixels
+    text-decoration: none; removes the default underline from the links
+    */
     padding: 20px 40px;
     border-radius: 10px;
     text-decoration: none;
