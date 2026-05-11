@@ -1,7 +1,9 @@
 body {
     background-color: lightblue;
     font-family: Arial, sans-serif;
-}
+} 
+
+/* curly bracket */
 
 h1 {
     text-align: center;
@@ -9,13 +11,15 @@ h1 {
     font-size: 5rem;
 }
 
+/* Class */
 .text {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 10px;
     font-size: 5rem;
 }
 
-.food {
+/* Id */
+#food {
     display: block;
     margin: auto;
     width: 50rem;
@@ -26,26 +30,27 @@ h1 {
     width: 10rem;
 }
 
-.button {
+#button {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-.button a {
+/* Id individual element a */
+#button a {
     color: black;
     padding: 20px 40px;
     border-radius: 10px;
     text-decoration: none;
 }
 
-.yes {
+#yes {
     background-color: lightgreen;
     font-size: 2rem;
 }
 
-.no {
+#no {
     background-color: lightcoral;
     font-size: 1rem;
 }
