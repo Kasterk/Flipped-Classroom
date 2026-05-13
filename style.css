@@ -42,7 +42,13 @@ selects the element with the specific id name
     */
     display: block;
     margin: auto;
-    width: 50rem;
+    height: 50rem;
+}
+
+#noFood {
+    display: block;
+    margin: auto;
+    width: 40rem;
 }
 
 .arrow {
