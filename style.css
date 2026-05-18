@@ -21,20 +21,14 @@ selects elements with the specific class name
 .className selects all elements with the class "className"
 */
 .text {
-    /* 
-    text-align is used to set the horizontal alignment of the text within an element
-    center aligns the text to the center of its container
-    */
-    text-align: center;
     margin-top: 10px;
-    font-size: 5rem;
 }
 
 /* 
 selects the element with the specific id name 
 #idName selects the element with the id "idName"
 */
-#food {
+.food {
     /* 
     display: block; sets the element to display as a block-level element
     margin: auto; centers the element horizontally within its container
@@ -45,18 +39,12 @@ selects the element with the specific id name
     height: 50rem;
 }
 
-#noFood {
-    display: block;
-    margin: auto;
-    width: 40rem;
-}
-
 .arrow {
-    display: block;
     width: 10rem;
+    margin-left: 10px;
 }
 
-#button {
+.button {
     /* 
     display: flex; sets the element to display as a flex container, allowing for flexible layout of its child elements
     flex-direction: column; stacks the child elements vertically
@@ -72,7 +60,7 @@ selects the element with the specific id name
 /* 
 
 */
-#button a {
+.button a {
     color: black;
     /* 
     padding is used to create space around the content of an element
@@ -85,12 +73,11 @@ selects the element with the specific id name
     text-decoration: none;
 }
 
-#yes {
+.yes {
     background-color: lightgreen;
     font-size: 2rem;
 }
 
-#no {
+.no {
     background-color: lightcoral;
-    font-size: 1rem;
 }
