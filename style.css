@@ -2,7 +2,7 @@
 body {
     /* colors can be specified using names, hex values, or RGB values */
     background-color: lightblue; 
-    font-family: Copperplate, Papyrus, fantasy;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 } 
 
 h1 {
@@ -71,6 +71,8 @@ selects the element with the specific id name
     padding: 20px 40px;
     border-radius: 10px;
     text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .yes {
