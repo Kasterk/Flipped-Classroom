@@ -75,11 +75,11 @@ selects the element with the specific id name
     font-style: italic;
 }
 
-.yes {
+#yes {
     background-color: lightgreen;
     font-size: 2rem;
 }
 
-.no {
+#no {
     background-color: lightcoral;
 }
